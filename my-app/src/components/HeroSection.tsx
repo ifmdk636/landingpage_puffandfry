@@ -52,9 +52,9 @@ const HeroSection = ({ quantities, onAdjustQuantity }: HeroSectionProps) => {
             Puff <em>&amp;</em> Fry.
           </h1>
           <p className="hero-lead">
-            Dua hal sederhana yang dibuat dengan serius di Jakarta. Satu
-            berlapis mentega dari oven pagi, satu lagi paket Pisang Goreng
-            Frozen siap goreng yang renyah dan manis hangat.
+            Dua hal sederhana yang dibuat sepenuh hati. Satu croissant berlapis
+            mentega dari oven pagi, satu lagi paket Pisang Goreng Frozen yang
+            renyah dan manis hangat.
           </p>
         </div>
       </div>
