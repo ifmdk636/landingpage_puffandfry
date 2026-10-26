@@ -246,7 +246,6 @@ const LandingPage = () => {
 
             <div className="baking-sheet-ledger">
               <div className="sheet-row">
-                <div className="sheet-time tabular-nums">05:30 WIB</div>
                 <div className="sheet-detail">
                   <h3>Lipatan Dingin &amp; Adonan Segar</h3>
                   <p>
@@ -259,7 +258,6 @@ const LandingPage = () => {
               </div>
 
               <div className="sheet-row">
-                <div className="sheet-time tabular-nums">06:45 WIB</div>
                 <div className="sheet-detail">
                   <h3>Renyahnya Pas, Siap Goreng Kapan Saja</h3>
                   <p>
@@ -272,7 +270,6 @@ const LandingPage = () => {
               </div>
 
               <div className="sheet-row">
-                <div className="sheet-time tabular-nums">07:00 WIB</div>
                 <div className="sheet-detail">
                   <h3>Best Enjoyed Warm Hari Ini</h3>
                   <p>
