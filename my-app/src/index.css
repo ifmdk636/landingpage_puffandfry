@@ -1,10 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Chivo+Mono:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
-:root { font-family: 'DM Sans', sans-serif; color: #2e211b; background: #f8f5ef; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; min-width: 320px; }
-a { color: inherit; text-decoration: none; }
-button { font: inherit; }
-#root { min-height: 100vh; }
+:root {
+  --enamel-cobalt: #1b3b73;
+  --enamel-rim: #0f254a;
+  --enamel-milk: #f7f2e7;
+  --enamel-cream: #fffdf8;
+  --stamp-red: #d9381e;
+  --stamp-red-dark: #b32812;
+  --crust-amber: #d88c27;
+  --led-amber: #ffb000;
+  --led-red: #ff3b2f;
+  --ink-charcoal: #161412;
+  --ink-cocoa: #453c35;
+  --cobalt-tint: #2d4d85;
+  --gingham-thread: rgba(27, 59, 115, 0.065);
+  --rule-cobalt: rgba(27, 59, 115, 0.22);
+
+  font-family: 'Work Sans', sans-serif;
+  color: var(--ink-charcoal);
+  background: var(--enamel-cobalt);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  caret-color: var(--stamp-red);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--stamp-red);
+  color: var(--enamel-cream);
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--enamel-milk) var(--enamel-rim);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--enamel-rim);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--enamel-milk);
+  border: 2px solid var(--enamel-rim);
+  border-radius: 6px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--enamel-cobalt);
+  color: var(--ink-charcoal);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-underline-offset: 4px;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px dashed var(--stamp-red);
+  outline-offset: 4px;
+}
+
+#root {
+  min-height: 100vh;
+}
