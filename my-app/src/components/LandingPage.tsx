@@ -589,7 +589,7 @@ const LandingPage = () => {
               Puff <em>&amp;</em> Fry
             </span>
           </a>
-          <p>Made warm, shared happy · Dapur Panggangan &amp; Wajan Jakarta.</p>
+          <p>Made warm, shared happy.</p>
           <small className="tabular-nums">© 2026 Puff &amp; Fry</small>
         </footer>
       </div>
